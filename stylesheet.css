@@ -1,29 +1,29 @@
 .footer {
-  background-color: #696969;
-  color: #fff;
-  height: 120px;
-  padding: 40px;
+	background-color: #696969;
+	color: #fff;
+	height: 120px;
+	padding: 40px;
   
 }
 
 .footer-logo {
-  font-size: 32px;
-  float: left;
+	font-size: 32px;
+	float: left;
 }
 
 .footer-list {
-  text-align:center;
-  transition: all 1s;
-  padding-right: 55px;
+	text-align:center;
+	transition: all 1s;
+	padding-right: 55px;
 }
 
 .footer-list a{
-  list-style: none;
-  font-family: "Comic Sans MS";
-  font-size: 13px;
-  cursor: pointer;
-  padding-left: 20px;
-  
+	list-style: none;
+	font-family: "Comic Sans MS";
+	color: white;
+	font-size: 13px;
+	cursor: pointer;
+	padding-left: 20px;
 }
 #link:hover{
 	color: yellow;
