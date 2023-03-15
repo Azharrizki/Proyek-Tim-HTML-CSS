@@ -3,12 +3,46 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portal Kerja</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Portal Lowongan Kerja</title>
 </head>
 
 <body>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h3 class="section-title">Hubungi <span>Kami</span></h3>
+      </div>
+      <div class="contact-items">
+        <form method="POST" action="#">
+          <input type="hidden" name="" value="">
+          <div class="col-12 col-md-6">
+            <div class="form-group">
+              <label for="nama" class="label">Nama</label>
+              <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukkan nama anda" required>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="form-group">
+              <label for="email" class="label">Email</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Masukkan email anda"
+                required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1" class="label">Pesan</label>
+            <textarea class="form-control" name="pesan" rows="3" placeholder="Tulis pesan anda" required></textarea>
+          </div>
+      </div>
+      <button type="submit" class="btn btn-primary my-2 rounded">Kirim</button>
+      </form>
+    </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
 
 </body>
 
