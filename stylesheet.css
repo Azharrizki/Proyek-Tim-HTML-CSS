@@ -150,6 +150,49 @@ header {
   color: #000;
 }
 
+.category {
+  padding: 5rem;
+  background-color: #F6F7FC;
+}
+
+.header-category {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.header-category span {
+  color: #4540DB;
+}
+
+.category-body {
+  display: flex;
+  justify-content: center;
+}
+
+.category-card {
+  display: flex;
+  width: 7rem;
+  margin: 1rem;
+  flex-wrap: wrap;
+}
+
+.category-img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.category-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.category-subtitle {
+  font-size: 0.75rem;
+  color: gray
+}
+
 /* contact Section */
 #contact .contact {
   flex-direction: column;
