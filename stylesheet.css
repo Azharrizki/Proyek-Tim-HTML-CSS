@@ -2,11 +2,11 @@
 
 * {
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
   margin: 0;
-  font-family: "Lucida Grande";
 }
 
 a {
@@ -37,12 +37,12 @@ a {
   font-size: 45px;
   letter-spacing: 5px;
   margin-bottom: 10px;
-  font-family: open sans;
+  font-weight: 600;
 }
 
 .top-wrapper p {
   color: white;
-  margin-bottom: 3px;
+  margin-bottom: 30px;
 }
 
 .btn-wrapper {
@@ -109,6 +109,7 @@ header {
 
 .header-right a {
   line-height: 65px;
+  font-size: 0.8rem;
   padding: 0 25px;
   color: white;
   display: block;
@@ -129,7 +130,6 @@ header {
 }
 
 .container-form {
-  min-height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -151,57 +151,79 @@ header {
 }
 
 .category {
-  padding: 5rem;
+  padding: 6rem;
   background-color: #F6F7FC;
 }
 
-.header-category {
-  font-size: 4rem;
+.category-header {
+  font-size: 60px;
   text-align: center;
+  font-weight: 700;
+  line-height: 3.5rem;
+  margin-bottom: 3rem;
 }
 
-.header-category span {
+.category-header span {
   color: #4540DB;
 }
 
 .category-body {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .category-card {
   display: flex;
-  width: 7rem;
-  margin: 1rem;
-  flex-wrap: wrap;
+  margin: 1.5rem;
+  padding: 1.7rem;
+  border-radius: 20px;
+  box-shadow: 5px 8px #3834b2;
+  background-color: white;
+  border: 1px solid #3834b2;
+}
+
+.category-card:hover {
+  box-shadow: 0 0 #3834b2;
+  background-color: #3834b2;
+  border: 1px solid #3834b2;
+  color: white;
+  transition: 0.5s;
 }
 
 .category-img {
-  width: 1rem;
-  height: 1rem;
+  padding: 0 15px 0 0;
 }
 
 .category-title {
   font-size: 1rem;
   font-weight: 600;
-  color: black;
   margin-bottom: 15px;
 }
 
 .category-subtitle {
   font-size: 0.75rem;
-  color: gray
 }
 
 /* contact Section */
-#contact .contact {
+.contact {
   flex-direction: column;
-  max-width: 1200px;
   margin: 0 auto;
-  width: 90%;
+  padding: 6rem;
 }
 
-#contact .contact-items {
+.contact-header {
+  font-size: 60px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.contact-header span {
+  color: #4540DB;
+}
+
+.contact-items {
   width: 100%;
 }
 
@@ -212,7 +234,7 @@ header {
 }
 
 .label {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .form-control {
@@ -251,63 +273,28 @@ header {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #4540DB;
+  border-color: #4540DB;
   font-size: 15px;
 }
+
 /*End contact Section */
 
 .footer {
-	background-color: #696969;
-	color: #fff;
-	height: 120px;
-	padding: 40px;
-  
+  background-color: #696969;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-logo {
-	font-size: 32px;
-	float: left;
+  display: flex;
+  font-size: 0.8rem;
+  align-items: center;
 }
 
-.footer-list {
-	text-align:center;
-	transition: all 1s;
-	padding-right: 55px;
-}
-
-.footer-list a{
-	list-style: none;
-	font-family: "Comic Sans MS";
-	color: white;
-	font-size: 13px;
-	cursor: pointer;
-	padding-left: 20px;
-}
-#link:hover{
-	color: yellow;
-}
-
-.footer-create h5{
-	font-family: "Comic Sans MS";
-	font-weight: normal;
-	font-size: 12px;
-	text-align:center;
-}	
-
-.wrapper-bottom {
-	float: right;
-	padding-right: 20px;
-	padding-left: 55px;
-}
-
-.wrapper-bottom h2 {
-	font-size: 13px;
-	color: white;
-	font-family: "Comic Sans MS";
-	font-weight: normal;
-}
-
-.wrapper-bottom a{
-		cursor: pointer;
+.footer-list a {
+  font-size: 1rem;
+  color: white;
 }
