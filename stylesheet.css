@@ -135,6 +135,9 @@ header {
   align-items: center;
   justify-content: center;
 }
+.container span{
+  color: #4540DB;
+}
 
 .section-title-form {
   font-size: 4rem;
