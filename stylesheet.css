@@ -212,5 +212,59 @@ header {
   border-color: #007bff;
   font-size: 15px;
 }
-
 /*End contact Section */
+
+.footer {
+	background-color: #696969;
+	color: #fff;
+	height: 120px;
+	padding: 40px;
+  
+}
+
+.footer-logo {
+	font-size: 32px;
+	float: left;
+}
+
+.footer-list {
+	text-align:center;
+	transition: all 1s;
+	padding-right: 55px;
+}
+
+.footer-list a{
+	list-style: none;
+	font-family: "Comic Sans MS";
+	color: white;
+	font-size: 13px;
+	cursor: pointer;
+	padding-left: 20px;
+}
+#link:hover{
+	color: yellow;
+}
+
+.footer-create h5{
+	font-family: "Comic Sans MS";
+	font-weight: normal;
+	font-size: 12px;
+	text-align:center;
+}	
+
+.wrapper-bottom {
+	float: right;
+	padding-right: 20px;
+	padding-left: 55px;
+}
+
+.wrapper-bottom h2 {
+	font-size: 13px;
+	color: white;
+	font-family: "Comic Sans MS";
+	font-weight: normal;
+}
+
+.wrapper-bottom a{
+		cursor: pointer;
+}
